@@ -1,0 +1,223 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#page{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(27, 175, 27);
+   
+}
+
+.asm{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    background-color: wheat;
+    color: ivory;
+    background-size: 100% 100%;
+    height: 300px;
+    background-image: url("../img/logoHongnhung.jpg");
+    
+    
+}
+header.top-right{
+    height/ width: 1/4;
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.top-right{
+	Position:absolute;
+	Top:0;
+	Right:0;
+	Border-bottom-left-radius: 30px;
+	background-color: rgb(134, 224, 134);;
+	box-shadow:0px 0px 20px #FFF;
+	
+}
+.top-right>ul>li {
+	list-style-type: none;
+  text-align: center;
+  display:inline;
+  
+	margin-left:5px;
+	margin-right:5px;
+}
+.top-right>ul>li>a {
+    text-decoration:none;
+    color: rgb(39, 9, 9);
+	line-height:20px;
+	font-weight:bold;
+	font-size: 15px;
+}
+.top-right>ul>li>a:hover{
+	color:white;
+	text-decoration:underline;
+}
+
+
+nav {
+    line-height: 25px;
+    background-color: rgb(134, 224, 134);
+    text-decoration: none;
+    color: red;
+}
+nav a:hover{
+    color: brown;
+}
+nav .menu:hover{
+    text-decoration: underline;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    width: 100%;
+}
+
+article{
+
+    background-color: white;
+    min-height: 200px;
+    width: 75%;
+    float: left;
+    
+}
+   
+aside{
+    background-color: whitesmoke;
+    min-height: 200px;
+    width: 25%;
+    float: left;
+}
+
+footer{
+    clear:both;
+    background-color:wheat;
+    height: 40px;
+    text-align: center;
+}
+.column{
+    width: 25%;
+    float:left
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding:10px;
+    margin:5px;
+    text-align:center;
+    position: relative;
+}
+.san-pham .ten{
+    font-variant:small-caps;
+    color: blue;
+}
+.san-pham img{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.san-pham .image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.san-pham .gia{
+    position: absolute;
+    color:red;
+    font-weight:bold;
+    font-size: 15px;
+    text-align: center;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact;
+}    
+.san-pham .gia del{
+    color:gray
+}
+.san-pham .icons {
+    position: absolute;
+    right:5px;
+    bottom: 5px;
+    width: 25px;
+    
+}
+.san-pham .new-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.san-pham :hover{
+    box-shadow: 0 0 7px green;
+}
+.asm{
+     margin-bottom: 5px ;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+    background-color: #FFF;
+    
+}
+.vmenu a{
+    background: url("../img/bullet_hover.gif") no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orange;
+    color: green;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+
+}
+.vmenu a:hover{
+    background: url("../img/bullet.png") no-repeat 10px center;
+    border-bottom: white;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu:hover{
+    color: yellow;
+    
+}
+a{
+    text-decoration: none;
+    color:indianred
+}
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+.detail{
+    width: 100%;
+}
+.detail-im{
+    width: 39%;
+    float: left;
+
+}
+.detai-left{
+    width: 39%;
+    float: left;
+}
+
+
+.detail-content{
+    width: 60%;
+    float: right;
+}
